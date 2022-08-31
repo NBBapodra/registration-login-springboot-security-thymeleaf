@@ -1,4 +1,4 @@
-package net.javaguides.springboot.springsecurity.controller;
+package com.example.login.and.Registration.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

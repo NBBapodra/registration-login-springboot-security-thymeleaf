@@ -1,4 +1,4 @@
-package net.javaguides.springboot.springsecurity.config;
+package com.example.login.and.Registration.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

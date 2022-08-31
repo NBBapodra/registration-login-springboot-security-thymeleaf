@@ -1,10 +1,10 @@
-package net.javaguides.springboot.springsecurity.controller.dto;
+package com.example.login.and.Registration.controller.dto;
 
 import javax.validation.constraints.AssertTrue;
+
+import com.example.login.and.Registration.constraint.FieldMatch;
 import org.hibernate.validator.constraints.Email;
 import org.hibernate.validator.constraints.NotEmpty;
-
-import net.javaguides.springboot.springsecurity.constraint.FieldMatch;
 
 @FieldMatch.List({
     @FieldMatch(first = "password", second = "confirmPassword", message = "The password fields must match"),

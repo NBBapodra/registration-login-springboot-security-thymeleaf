@@ -1,7 +1,10 @@
-package net.javaguides.springboot.springsecurity.controller;
+package com.example.login.and.Registration.controller;
 
 import javax.validation.Valid;
 
+import com.example.login.and.Registration.controller.dto.UserRegistrationDto;
+import com.example.login.and.Registration.model.User;
+import com.example.login.and.Registration.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -10,10 +13,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-
-import net.javaguides.springboot.springsecurity.controller.dto.UserRegistrationDto;
-import net.javaguides.springboot.springsecurity.model.User;
-import net.javaguides.springboot.springsecurity.service.UserService;
 
 @Controller
 @RequestMapping("/registration")

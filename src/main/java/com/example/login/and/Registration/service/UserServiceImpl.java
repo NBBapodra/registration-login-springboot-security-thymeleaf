@@ -1,4 +1,4 @@
-package net.javaguides.springboot.springsecurity.service;
+package com.example.login.and.Registration.service;
 
 import java.util.Arrays;
 import java.util.Collection;
@@ -12,10 +12,10 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import net.javaguides.springboot.springsecurity.controller.dto.UserRegistrationDto;
-import net.javaguides.springboot.springsecurity.model.Role;
-import net.javaguides.springboot.springsecurity.model.User;
-import net.javaguides.springboot.springsecurity.repository.UserRepository;
+import com.example.login.and.Registration.controller.dto.UserRegistrationDto;
+import com.example.login.and.Registration.model.Role;
+import com.example.login.and.Registration.model.User;
+import com.example.login.and.Registration.repository.UserRepository;
 @Service
 public class UserServiceImpl implements UserService {
 

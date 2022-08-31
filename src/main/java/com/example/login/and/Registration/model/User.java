@@ -1,4 +1,4 @@
-package net.javaguides.springboot.springsecurity.model;
+package com.example.login.and.Registration.model;
 
 import java.util.Collection;
 
